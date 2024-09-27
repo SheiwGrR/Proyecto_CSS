@@ -1,0 +1,36 @@
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width:70%;
+    margin-top: 20px;
+}
+table th {
+    background-color: #000;
+    font-size: 1.3em;
+}
+
+table tr:nth-child(odd) {
+    background:linear-gradient(to left, #000, #040);
+}
+
+
+table th, tr td {
+    padding: 15px;
+}
+
+tr:nth-child(odd):hover {
+    background: linear-gradient(to right, #0001,#0002);
+}
+
+tr:nth-child(even):hover {
+    background: linear-gradient(to right, #020,#0002);
+}

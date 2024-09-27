@@ -1,0 +1,42 @@
+
+
+.subtitulo {
+    margin: 20px;
+    padding: 0;
+    color: #888;    
+    letter-spacing: 1px;
+    
+}
+
+.contenedor {
+    max-width: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.contenedor p {
+    text-align: justify;
+    line-height: 22px;
+    text-shadow: 0 0 16px #fff5 ;
+}
+
+.imagen {
+    float: right;
+    margin: 10px 0 10px 20px;
+    width: 30%;
+}
+
+.imagen2 {
+    float:left;
+    width: 30%;
+    margin: 10px 10px 10px 0;
+}
+
+.tituloInterno {
+    font-size: 24px;
+
+}
+
+img:hover {
+    opacity: .5;
+}

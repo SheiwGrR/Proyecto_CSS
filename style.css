@@ -1,0 +1,101 @@
+
+
+body {
+    font-family:sans-serif;
+    background: linear-gradient(to right, #000,#040);
+    margin: 0;
+    padding: 0;
+    color: #888;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    position:sticky;
+    background: linear-gradient(to right, #000,#040);
+    top:0px;
+
+}
+
+.active {
+    background-color: #080a;
+    opacity: .7;
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #020;
+    opacity: .7;
+}
+
+
+li {
+    float: left;
+}
+
+li > a {
+    display: block;
+    color: #888;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #000;
+    color: #080;
+
+}
+
+h1 {
+    color: #888;
+    letter-spacing: 2px;
+    text-shadow: 0 0 20px #ccc;
+    padding-top: 10px;
+}
+hr {
+    width: 55%;
+    margin-left: 20px;
+}
+
+footer {
+    background: linear-gradient(to left, #000,  #040);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: end;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+footer div a{
+    text-decoration: none;
+    margin-left: 30px ;
+    color:darkmagenta;
+}
+
+footer div a:hover {
+    text-decoration:underline;
+    color: #00f;
+}
+
+h2 {
+    margin-left: 25px;
+}
+
+
+
+

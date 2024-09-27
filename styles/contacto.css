@@ -1,0 +1,44 @@
+
+
+.contenedor {
+    background: linear-gradient(to right, #040,#000);
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px 20px 10px 20px;
+    width: 80%;
+    color: #000;
+}
+
+input[type="text"],input[type="email"],select,textarea {
+    width: 100%;
+    background: linear-gradient(to right, #000, #040);
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid rgb(70,70,70);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #777;
+}
+
+textarea {
+    font-family: sans-serif;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 60px;
+}
+
+input[type="submit"] {
+    width: 50%;
+    display: block;
+    background: linear-gradient(to right, #000, #040);
+    color: #fff;
+    padding: 15px 20px;
+    margin: 8px auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    opacity: .5;
+}
